@@ -1,0 +1,76 @@
+html{
+    background-image:url("background.jpg");
+    background-repeat: repeat;
+
+}
+body{
+    font-family: sans-serif;
+    color: rgb(207, 207, 207);
+ 
+}
+#website:visited, #website:link {  
+    font-size: 1.5em;
+}
+img{
+    width: 200px;
+    border-radius: 50%;
+    border: 4px solid rgb(207, 207, 207);    
+    margin-top: 2%;
+}
+#center{
+    text-align: center;
+}
+table, th, td{
+    text-align: center;
+    width: 30%;
+    height: 30%;    
+    margin-left:auto; 
+    margin-right:auto;    
+    margin-top: 50px;
+    font-weight: Bold;
+}
+#table-heading{
+    font-size: 1.5em;
+    color: black;
+}
+A:visited, A:link {
+    text-decoration: none;
+} 
+A:hover{
+    color:rgb(86, 255, 184);
+}
+.primarygreen{
+    background-color: #7289DA;
+}
+.primarypurple{
+    background-color: #49ddc1;
+}
+.list{
+    float: left;
+    margin-left: 1.5%;
+}
+.list-container{
+    display: flex;
+    justify-content: center;
+    margin-left: -1.7%;
+}
+.work-edu{
+    width: 80%;
+    margin: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+h4{
+    padding-top: 2%;
+    text-align: center;
+    font-style: italic;
+}
+span{
+    color: red;
+    font-weight: bold;
+}
+.intweb{
+    padding-top: 2%;
+    text-align: center;
+}
